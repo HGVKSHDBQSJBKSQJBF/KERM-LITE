@@ -17,9 +17,9 @@ module.exports = {
 
    // String Values
    SESSION_ID: process.env.SESSION_ID || "", // Put your session
-   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237656520674",
+   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]"="+",
+   BOT_INFO: process.env.BOT_INFO || "capitainecoeurytb;bestbot⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
+   SUDO: process.env.SUDO || "33652952086",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
@@ -31,7 +31,7 @@ module.exports = {
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
    GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
    RMBG_KEY: process.env.RMBG_KEY || "",
-   WORK_TYPE: process.env.WORK_TYPE || "private",
+   WORK_TYPE: process.env.WORK_TYPE || "public",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
    REMOVEBG: process.env.REMOVEBG || "",
    HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
